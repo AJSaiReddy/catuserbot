@@ -48,9 +48,9 @@ def verify_cond(catarray, text):
     return any(i in text for i in catarray)
 
 
-def pack_name(userid, pack, is_anim):
+def pack_name(Sai_Reddy_Pack1, is_anim):
     if is_anim:
-        return f"catuserbot_{userid}_{pack}_anim"
+        return f"Sai_Reddy_Pack1_anim"
     return f"catuserbot_{userid}_{pack}"
 
 
@@ -66,9 +66,9 @@ def pack_nick(username, pack, is_anim):
             packnick = f"{Config.CUSTOM_STICKER_PACKNAME} Vol.{pack}"
     else:
         if is_anim:
-            packnick = f"@{username} Vol.{pack} (Animated)"
+            packnick = f"Sai_Reddy_Pack1 Vol.{pack} (Animated)"
         else:
-            packnick = f"@{username} Vol.{pack}"
+            packnick = f"Sai_Reddy_Pack1 Vol.{pack}"
     return packnick
 
 
